@@ -1,0 +1,48 @@
+.knowledge-graph-updates {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.knowledge-graph-updates h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.updates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.update-item {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.update-connection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.connection-node {
+  background-color: #E3F2FD;
+  color: #1976D2;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.connection-type {
+  color: #666;
+  font-size: 12px;
+  font-style: italic;
+}

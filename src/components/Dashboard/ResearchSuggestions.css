@@ -1,0 +1,70 @@
+.research-suggestions {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.research-suggestions h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.suggestion-icon {
+  margin-right: 12px;
+  font-size: 20px;
+  color: #673AB7;
+}
+
+.suggestion-content {
+  flex: 1;
+}
+
+.suggestion-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.suggestion-relevance {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.relevance-bar {
+  flex: 1;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.relevance-fill {
+  height: 100%;
+  background-color: #673AB7;
+  border-radius: 3px;
+}
+
+.relevance-text {
+  font-size: 12px;
+  color: #666;
+}
